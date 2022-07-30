@@ -1,0 +1,89 @@
+.cell {
+  width: 50px;
+  height: 50px;
+  background-color: bisque;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: all 0.2s ease;
+  
+}
+
+
+.cell:last-child {
+  font-weight: 900;
+}
+
+.cell:hover {
+  background-color: darksalmon;
+}
+
+.cell:active{
+  transform: scale(0.95);
+}
+
+.row {
+  display: flex;
+}
+
+.lol1 {
+  width: 225px;
+  height: 40px;
+  background-color: bisque;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  font-size: 24px;
+  text-align: right;
+  padding-right: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.equal {
+  background-color: brown;
+  color: white;
+}
+
+.last:hover {
+  background-color: darkred;
+}
+
+.calc {
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  width: 250px;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  position: relative;
+  margin: 64px auto;
+}
+
+.clear {
+  background-color: red;
+  color: white;
+  display: flex;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  border-radius: 15%;
+  font-weight: 900;
+}
+
+.clear:hover {
+  background-color: brown;
+}
+
+body {
+  user-select: none;
+}
